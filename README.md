@@ -6,8 +6,9 @@ In order to push a .bin firmware through the Multicast Upgrade Tool (MUT) from H
 - a .ini file which is a collection of metadata of rhe firmware (file name, checksum of the firmware and checksum of the ini file)
 
 If you upgrade directly from the Router's GUI, you only need the .bin file and you DON'T need this tool.
+However, if you throw only the .bin file to Multicast Upgrade Tool MUT, you will have the error "ini file error".
 
-Firmwares as well as the MUT tool the can be found across the internet
+Firmwares as well as the MUT tool the can be found across the internet.
 
 You need a Python interpreter installed in your PC to run the Python script.
 
