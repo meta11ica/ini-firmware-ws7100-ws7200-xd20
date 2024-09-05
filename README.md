@@ -30,3 +30,6 @@ The Tool will take the following information from the firmware and put them in t
 
 I didn't tweak the variable "PARTITIONS" as it seems consistent for the AX3 (Global WS7100-20 and Chinese WS7100-10), AX3 PRO and Honor 3 (XD-20).
 So make sure it's OK for you.
+
+
+95% of the script is developed by ChatGPT
