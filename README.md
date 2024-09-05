@@ -15,12 +15,17 @@ You need a Python interpreter installed in your PC to run the Python script.
 There're two scripts :
 - generate_ini_file.py : which is CLI based.
 The usage is :
-python generate_ini_file.py somefirmwarefile.py
+**python generate_ini_file.py somefirmwarefile.bin**
 
 This will generate a .ini file with the same filename in the working folder
 
 - generate_ini_file_gui.py : which is GUI based.
+
+Usage :
+**python generate_ini_file_gui.py**
+
 A window will open with a single button to select the firmware file, then the script will generate the .ini file and put it in the same folder as the .bin file
+
 
 
 The Tool will take the following information from the firmware and put them in the .ini :
