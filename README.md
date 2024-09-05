@@ -23,10 +23,10 @@ A window will open with a single button to select the firmware file, then the sc
 
 
 The Tool will take the following information from the firmware and put them in the .ini :
-- the firmware file name
-- the size in bytes of the firmware
-- the crc32 of the firmware
-- the crc32 of the ini file
+- IMAGE_NAME : the firmware file name
+- IMAGE_SIZE : the size in bytes of the firmware
+- FIRMWARE_CRC_SUM : the crc32 of the firmware
+- INI_CRC_SUM : the crc32 of the ini file
 
 I didn't tweak the variable "PARTITIONS" as it seems consistent for the AX3 (Global WS7100-20 and Chinese WS7100-10), AX3 PRO and Honor 3 (XD-20).
 So make sure it's OK for you.
